@@ -23,7 +23,7 @@ requires minimum deployment targets of iOS 15.4
 ## Technical Specifications
 
 #### Architecture
-- [the Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture)
+- [The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture)
 
 #### UI
 - [SwiftUI](https://developer.apple.com/documentation/swiftui/)
