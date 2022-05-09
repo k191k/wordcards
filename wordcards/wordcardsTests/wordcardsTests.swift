@@ -1,6 +1,6 @@
 //
-//  wordbookTests.swift
-//  wordbookTests
+//  wordcardsTests.swift
+//  wordcardsTests
 //
 //  Created by k191k on 2022/04/24.
 //

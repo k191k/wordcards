@@ -12,7 +12,7 @@
 		1B5BFF6A2814E8C900DEA212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5BFF692814E8C900DEA212 /* Assets.xcassets */; };
 		1B5BFF6D2814E8C900DEA212 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5BFF6C2814E8C900DEA212 /* Preview Assets.xcassets */; };
 		1B5BFF6F2814E8C900DEA212 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BFF6E2814E8C900DEA212 /* Persistence.swift */; };
-		1B5BFF722814E8C900DEA212 /* wordbook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BFF702814E8C900DEA212 /* wordbook.xcdatamodeld */; };
+		1B5BFF722814E8C900DEA212 /* wordcards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BFF702814E8C900DEA212 /* wordcards.xcdatamodeld */; };
 		1B5BFF7C2814E8CA00DEA212 /* wordcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BFF7B2814E8CA00DEA212 /* wordcardsTests.swift */; };
 		1B5BFF962814E94800DEA212 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 1B5BFF952814E94800DEA212 /* ComposableArchitecture */; };
 		1B5BFF992814EBA200DEA212 /* WordCardsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BFF982814EBA200DEA212 /* WordCardsList.swift */; };
@@ -162,7 +162,7 @@
 		1B5BFFAA281A773A00DEA212 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				1B5BFF702814E8C900DEA212 /* wordbook.xcdatamodeld */,
+				1B5BFF702814E8C900DEA212 /* wordcards.xcdatamodeld */,
 				1B5BFF6E2814E8C900DEA212 /* Persistence.swift */,
 			);
 			path = CoreData;
@@ -298,7 +298,7 @@
 				1B5BFF9F2817669D00DEA212 /* SpeechClient.swift in Sources */,
 				1B5BFFBA281CC73100DEA212 /* Toast.swift in Sources */,
 				1B5BFFA2281A1FFD00DEA212 /* SpeechRecognizer.swift in Sources */,
-				1B5BFF722814E8C900DEA212 /* wordbook.xcdatamodeld in Sources */,
+				1B5BFF722814E8C900DEA212 /* wordcards.xcdatamodeld in Sources */,
 				1B5BFFAD281A77A200DEA212 /* WordCardRepository.swift in Sources */,
 				1B5BFFA4281A217B00DEA212 /* WordCell.swift in Sources */,
 				1B5BFF9B2814EBD800DEA212 /* Rec.swift in Sources */,
@@ -520,7 +520,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = k191k.wordbookTests;
+				PRODUCT_BUNDLE_IDENTIFIER = k191k.wordcardsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -540,7 +540,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = k191k.wordbookTests;
+				PRODUCT_BUNDLE_IDENTIFIER = k191k.wordcardsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -614,13 +614,13 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		1B5BFF702814E8C900DEA212 /* wordbook.xcdatamodeld */ = {
+		1B5BFF702814E8C900DEA212 /* wordcards.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				1B5BFF712814E8C900DEA212 /* wordbook.xcdatamodel */,
 			);
 			currentVersion = 1B5BFF712814E8C900DEA212 /* wordbook.xcdatamodel */;
-			path = wordbook.xcdatamodeld;
+			path = wordcards.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
