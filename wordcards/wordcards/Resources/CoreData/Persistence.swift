@@ -1,6 +1,6 @@
 //
 //  Persistence.swift
-//  wordbook
+//  wordcards
 //
 //  Created by k191k on 2022/04/24.
 //
@@ -13,7 +13,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "wordbook")
+        container = NSPersistentContainer(name: "wordcards")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }

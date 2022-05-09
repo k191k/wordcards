@@ -1,6 +1,6 @@
 //
 //  RecView.swift
-//  wordbook
+//  wordcards
 //
 //  Created by k191k on 2022/04/24.
 //

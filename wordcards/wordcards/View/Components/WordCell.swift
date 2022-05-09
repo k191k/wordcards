@@ -1,6 +1,6 @@
 //
 //  WordCell.swift
-//  wordbook
+//  wordcards
 //
 //  Created by k191k on 2022/04/28.
 //
@@ -12,7 +12,7 @@ struct WordCell: View {
     var meaning: String
     
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             Text(word)
                 .padding(.bottom)
             Text(meaning)
