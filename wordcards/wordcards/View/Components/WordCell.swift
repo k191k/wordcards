@@ -12,7 +12,7 @@ struct WordCell: View {
     var meaning: String
     
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             Text(word)
                 .padding(.bottom)
             Text(meaning)
